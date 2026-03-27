@@ -1,0 +1,125 @@
+{
+  "hero": {
+    "title": "Welcome to Solutions Faith Ministry International",
+    "vision": "To use the electronic media to make Jesus Christ more known and exercise the power in His name to restore destinies in every nook and cranny of the globe that this platform can reach.",
+    "description": "We are a vibrant community of believers committed to prayer, the unadulterated Word, and prophetic ministry. Join us as we journey in faith and experience God's transformative power.",
+    "image": "images/bg_3.jpg"
+  },
+  "sermon": {
+    "videoUrl": "https://www.tiktok.com/@solutionsfmi/video/7615016848299445511",
+    "title": "#WAR #2026 #PROPHECY",
+    "description": "Catch up on the most recent teaching from Solutions Faith Ministry International."
+  },
+  "gallery": [
+    { "image": "images/daddy&mummy.jpg", "title": "DADDY & MUMMY" },
+    { "image": "images/Daddyincloth.JPG", "title": "DADDY IN THE CHURCH CLOTH" },
+    { "image": "images/Daddy&Mumm.PNG", "title": "DADDY & MUMMY" }
+  ],
+  "pastors": [
+    {
+      "name": "Prophet Emmanuel Okyere Ampomah",
+      "position": "General Overseer & Founder",
+      "description": "Apostolic visionary, teacher, and prophetic voice called to restore destinies.",
+      "image": "images/pastors/daddy.jpg"
+    },
+    {
+      "name": "Pastor Mariam Ampomah",
+      "position": "Associate Pastor (Women & Family)",
+      "description": "Anointed teacher and counselor, devoted to nurturing families and empowering women.",
+      "image": "images/pastors/mummy.jpg"
+    },
+    {
+      "name": "Pastor Paul Adjin-Tettey",
+      "position": "Associate Pastor (Outreach & Evangelism)",
+      "description": "Dynamic preacher with a heart for evangelism, discipleship, and community impact.",
+      "image": "images/pastors/paul.jpg"
+    }
+  ],
+  "events": [
+    {
+      "title": "CULTURE SUNDAY",
+      "time": "SUNDAY 29TH MARCH 2026",
+      "host": "Prophet Emmanuel Okyere Ampomah ,Pastor Mariam Ampomah & Pastor Paul Adjin-Tettey",
+      "location": "Solutions Faith Ministry International Auditorium, Amasaman",
+      "btnText": "Join Us",
+      "image": "images/cultureday.jpg"
+    },
+    {
+      "title": "EASTER CONVENTION",
+      "time": "1ST APRIL - 3RD APRIL -5TH APRIL",
+      "host": "Prophet Emmanuel Okyere Ampomah",
+      "location": "Solutions Faith Ministry International Auditorium, Amasaman",
+      "btnText": "Join Us",
+      "image": "images/easter.jpg"
+    },
+    {
+      "title": "Family & Friends Service",
+      "time": "Sunday 8:30am – 11:30am",
+      "host": "Prophet Emmanuel Okyere Ampomah",
+      "location": "Solutions Faith Ministry International Auditorium, Amasaman",
+      "btnText": "Join Us",
+      "image": "images/Sunday.JPG"
+    },
+    {
+      "title": "Time With The Lord (Bible Study & Prayer)",
+      "time": "Wednesday 6:00pm – 8:00pm",
+      "host": "Pastor Paul Adjin-Tettey",
+      "location": "Solutions Faith Ministry International Auditorium, Amasaman",
+      "btnText": "Watch Live",
+      "image": "images/wednesday.JPG"
+    },
+    {
+      "title": "Prophetic, Healing & Deliverance Service",
+      "time": "Friday 6:00pm – 8:30pm",
+      "host": "Prophet Emmanuel Okyere Ampomah",
+      "location": "Solutions Faith Ministry International Auditorium, Amasaman",
+      "btnText": "Attend",
+      "image": "images/friday.jpg"
+    }
+  ],
+  "services": [
+    {
+      "title": "Prayer & Intercession",
+      "description": "We believe in the power of prayer to change situations.",
+      "icon": "fas fa-praying-hands"
+    },
+    {
+      "title": "Word Ministration",
+      "description": "Committed to teaching the unadulterated Word of God.",
+      "icon": "fas fa-book-bible"
+    },
+    {
+      "title": "Prophetic Declarations",
+      "description": "Exercising the power in His name to restore destinies.",
+      "icon": "fas fa-bullhorn"
+    },
+    {
+      "title": "Counseling",
+      "description": "Biblical counsel and spiritual guidance to navigate life's challenges and find emotional healing in Christ.",
+      "icon": "fas fa-comments"
+    },
+    {
+      "title": "Deliverance",
+      "description": "Ministering freedom to the oppressed, breaking chains and setting captives free through the power of the Holy Spirit.",
+      "icon": "fas fa-dove"
+    }
+  ],
+  "testimonies": [
+    {
+      "name": "MR FRANK & FAMILY PROPHECY TO LIVE IN USA TESTIMONY",
+      "type": "video",
+      "content": "https://drive.google.com/file/d/1--aM1HkEr1nIrQ6qK6CC17nQ9YxQjtQU/view?usp=share_link",
+      "image": "images/testimonies/frank_thumb.jpg"
+    },
+    {
+      "name": "MRS WELLINGTON SPEAKING AGAIN AFTER YEARS",
+      "type": "video",
+      "content": "https://drive.google.com/file/d/1TKq2fOZk96_spR8DWCo28OWZ_SQmc3nn/view?usp=share_link",
+      "image": "images/testimonies/wellington_thumb2.jpg"
+    }
+
+  ],
+  "dailyVerse": {
+    "image": "images/bg_3.jpg"
+  }
+}

@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Solutions Faith Ministry International</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Solutions Faith Ministry International - Using electronic media to make Jesus Christ known and restore destinies. Join us for worship, prophetic declarations, and life-changing sermons.">
+    <meta name="keywords" content="Solutions Faith Ministry International, church in Amasaman, Prophet Emmanuel Okyere Ampomah, sermons online, prophetic declarations, deliverance ministry">
+    <link rel="icon" type="image/png" href="/images/logo.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        /* ========== PRELOADER STYLES ========== */
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: #ffffff;
+            z-index: 10000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            transition: all 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+        }
+
+        .preloader-active {
+            overflow: hidden !important;
+        }
+
+        .logo-assemble-wrapper {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            animation: antigravity-float 4s ease-in-out infinite;
+        }
+
+        .logo-part {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('images/logo.png') no-repeat center;
+            background-size: contain;
+        }
+
+
+        .logo-part.left {
+            clip-path: inset(0 50% 0 0);
+            animation: assemble-wild-left 2.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s 1, assemble-wild-left 2.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 2.2s 1;
+        }
+        .logo-part.right {
+            clip-path: inset(0 0 0 50%);
+            animation: assemble-wild-right 2.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s 1, assemble-wild-right 2.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 2.2s 1;
+        }
+        @keyframes assemble-wild-left {
+            0% { transform: translateX(-200px) translateY(-100px) rotate(-180deg) scale(0.2); opacity: 0; }
+            30%, 70% { transform: translateX(0) translateY(0) rotate(0deg) scale(1); opacity: 1; }
+            100% { transform: translateX(-200px) translateY(100px) rotate(180deg) scale(0.2); opacity: 0; }
+        }
+        @keyframes assemble-wild-right {
+            0% { transform: translateX(200px) translateY(100px) rotate(180deg) scale(0.2); opacity: 0; }
+            30%, 70% { transform: translateX(0) translateY(0) rotate(0deg) scale(1); opacity: 1; }
+            100% { transform: translateX(200px) translateY(-100px) rotate(-180deg) scale(0.2); opacity: 0; }
+        }
+
+        /* Wild antigravity for sections */
+        .wild-section-animate {
+            opacity: 0;
+            transform: translateY(-80px) scale(0.98) rotate(-2deg);
+            transition: opacity 0.7s cubic-bezier(.77,0,.18,1), transform 0.9s cubic-bezier(.77,0,.18,1);
+        }
+        .wild-section-animate.visible {
+            opacity: 1;
+            transform: translateY(0) scale(1) rotate(0deg);
+            animation: wild-section-motion 2.2s cubic-bezier(.77,0,.18,1);
+        }
+        @keyframes wild-section-motion {
+            0% { transform: translateY(-80px) scale(0.98) rotate(-2deg); }
+            40% { transform: translateY(-30px) scale(1.04) rotate(2deg); }
+            70% { transform: translateY(-8px) scale(1.01) rotate(-1deg); }
+            100% { transform: translateY(0) scale(1) rotate(0deg); }
+        }
+
+        @keyframes antigravity-float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-40px) rotate(8deg); }
+        }
+        /* Green & White Color Scheme */
+        :root {
+            --primary: #17690d;
+            --primary-dark: #0e4a07;
+            --primary-light: #2a8a1e;
+            --accent: #17690d;
+            --dark: #1a2f1c;
+            --light: #ffffff;
+            --gray: #6c757d;
+            --soft-gray: #f8f9fa;
+        }
+        
+        html, body {
+            overflow-x: hidden;
+        }
+        
+        /* ========== NEW MODERN HEADER STYLES ========== */
+        .modern-header {
+            background: linear-gradient(135deg, #0a2e0a 0%, #145c0d 100%);
+            padding: 0.8rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1030;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            transition: all 0.3s ease;
+        }
+        
+        .modern-header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            width: 100%;
+            max-width: 100%;
+            padding: 0 30px;
+        }
+        
+        /* Logo Container - Circular */
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo-circle {
+            width: 60px;
+            height: 60px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            overflow: hidden;
+        }
+        
+        .logo-circle:hover {
+            transform: scale(1.05);
+        }
+        
+        .logo-circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        
+        /* Placeholder logo if image missing - uses first letter */
+        .logo-circle-placeholder {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #f5e6b0, #e0c87c);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #17690d;
+            font-family: 'Times New Roman', serif;
+        }
+        
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .brand-name {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: white;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin: 0;
+            line-height: 1.2;
+            white-space: nowrap;
+        }
+        
+        .brand-tagline {
+            font-size: 0.7rem;
+            color: rgba(255,255,255,0.85);
+            letter-spacing: 1px;
+            margin-top: 2px;
+        }
+        
+        /* Modern Navigation */
+        .modern-nav {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .modern-nav-links {
+            display: flex;
+            gap: 1.2rem;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .modern-nav-links li a {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 8px 0;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .modern-nav-links li a:hover,
+        .modern-nav-links li a.active {
+            color: #ffd966;
+        }
+        
+        .modern-nav-links li a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #ffd966;
+            transition: width 0.3s;
+        }
+        
+        .modern-nav-links li a:hover::after,
+        .modern-nav-links li a.active::after {
+            width: 100%;
+        }
+        
+        /* Mobile Toggle Button */
+        .mobile-toggle {
+            display: none;
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 1.8rem;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        
+        .mobile-toggle:hover {
+            color: #ffd966;
+        }
+        
+        @media (max-width: 992px) {
+            .mobile-toggle {
+                display: block;
+            }
+            .modern-nav {
+                position: fixed;
+                top: 76px;
+                left: -100%;
+                width: 80%;
+                max-width: 320px;
+                height: calc(100vh - 76px);
+                background: linear-gradient(135deg, #0a2e0a, #145c0d);
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 2rem 1.5rem;
+                transition: left 0.4s ease;
+                box-shadow: 5px 0 20px rgba(0,0,0,0.2);
+                z-index: 1020;
+                gap: 2rem;
+            }
+            .modern-nav.open {
+                left: 0;
+            }
+            .modern-nav-links {
+                flex-direction: column;
+                width: 100%;
+                gap: 1.2rem;
+            }
+            .modern-nav-links li a {
+                font-size: 1.1rem;
+                display: block;
+                padding: 8px 0;
+            }
+            .brand-name {
+                font-size: 1.2rem;
+            }
+            .logo-circle {
+                width: 50px;
+                height: 50px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            #hero-bg {
+                min-height: 300px !important;
+            }
+            #home-section {
+                padding-top: 20px !important;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .modern-header .container {
+                padding: 0 15px;
+            }
+            .brand-name {
+                font-size: 1.1rem;
+                white-space: normal;
+                line-height: 1.2;
+            }
+            .brand-tagline {
+                font-size: 0.6rem;
+            }
+            .logo-circle {
+                width: 40px;
+                height: 40px;
+            }
+            .logo-container {
+                gap: 10px;
+            }
+            .heading-section h2 {
+                font-size: 1.75rem;
+            }
+        }
+        
+        /* Rest of existing styles */
+        .ftco-about-section .text-inner p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #2c2c2c;
+        }
+        
+        .heading-section h2 {
+            font-weight: 700;
+            color: var(--dark);
+        }
+        
+        .heading-section .subheading {
+            color: var(--primary);
+        }
+        
+        .services .icon {
+            background: var(--soft-gray);
+            transition: 0.3s;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+        
+        .services .icon span {
+            font-size: 2rem;
+            color: var(--primary);
+        }
+        
+        /* Fix: Ensure Font Awesome icons (fas) match the primary green color */
+        .services .icon .fas, .services .icon .far, .services .icon .fab {
+            color: var(--primary);
+        }
+        
+        .services .media-body h3 {
+            font-size: 1.3rem;
+            color: var(--primary-dark);
+        }
+        
+        .service-card:hover .icon {
+            background: var(--primary);
+        }
+        
+        .service-card:hover .icon span {
+            color: white;
+        }
+        
+        .event-wrap .img {
+            min-height: 200px;
+            background-size: cover;
+        }
+        
+        .event-wrap .time {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .staff .img-wrap .img {
+            height: 320px;
+            background-position: top center;
+        }
+        
+        .staff .text h3 {
+            color: var(--primary-dark);
+        }
+        
+        .staff .position {
+            color: var(--primary);
+        }
+        
+        .ftco-daily-verse {
+            background: linear-gradient(135deg, var(--dark), #1f3a21);
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            border-color: var(--primary);
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            border-color: var(--primary-dark);
+        }
+        
+        .btn-outline-primary {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn-outline-primary:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+        }
+        
+        footer.ftco-footer {
+            background: var(--dark) !important;
+        }
+        
+        .ftco-footer .ftco-heading-2 {
+            color: var(--primary);
+        }
+        
+        .ftco-footer-widget .logo {
+            font-family: 'Times New Roman', Times, serif !important;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .ftco-footer-social li a {
+            background: rgba(255,255,255,0.1);
+        }
+        
+        .ftco-footer-social li a:hover {
+            background: var(--primary);
+        }
+        
+        .ftco-gallery .gallery {
+            height: 260px;
+            background-size: cover;
+            background-position: center;
+            transition: 0.3s;
+        }
+        
+        .ftco-gallery .gallery:hover {
+            transform: scale(1.02);
+            opacity: 0.9;
+        }
+        
+        .vision-box {
+            background: var(--soft-gray);
+            padding: 2rem;
+            border-left: 4px solid var(--primary);
+            margin: 1.5rem 0;
+            border-radius: 0 12px 12px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .staff .img-wrap .img {
+                height: 280px;
+            }
+        }
+        
+        /* Gallery Carousel Navigation */
+        .gallery-carousel .owl-nav .owl-prev,
+        .gallery-carousel .owl-nav .owl-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.8) !important;
+            color: var(--dark) !important;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+        .gallery-carousel .owl-nav .owl-prev { left: 10px; }
+        .gallery-carousel .owl-nav .owl-next { right: 10px; }
+        .gallery-carousel .owl-nav .owl-prev:hover,
+        .gallery-carousel .owl-nav .owl-next:hover { background: var(--primary) !important; color: white !important; }
+
+        /* New Event Card Design */
+        .event-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(0,0,0,0.05);
+            background: #fff;
+        }
+        .event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+        }
+        .event-img-wrap {
+            position: relative;
+            overflow: hidden;
+        }
+        .event-date-badge {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: var(--primary);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            z-index: 2;
+        }
+        .event-details-icon {
+            width: 20px;
+            text-align: center;
+            margin-right: 8px;
+            color: var(--primary);
+        }
+        
+        /* Redesigned Testimony Section */
+        .testimony-section {
+            background-attachment: fixed;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+        }
+        .testimony-section .overlay {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+        }
+        .testimony-section .container {
+            position: relative;
+            z-index: 2;
+        }
+        .testimony-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin: 15px 5px;
+            transition: transform 0.3s;
+        }
+        .testimony-card:hover {
+            transform: translateY(-5px);
+        }
+        .testimony-card .user-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            border: 3px solid var(--primary);
+            box-shadow: 0 0 0 3px rgba(23, 105, 13, 0.2);
+        }
+        .testimony-card .icon-quote {
+            color: var(--primary);
+            font-size: 24px;
+            display: block;
+            margin-bottom: 15px;
+            opacity: 0.6;
+        }
+        .testimony-card .name {
+            font-weight: 700;
+            color: var(--dark);
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        .testimony-card .position {
+            font-size: 0.85rem;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        
+        /* ========== REDESIGNED TESTIMONY SECTION ========== */
+        .testimony-section {
+            background: #ffffff !important;
+            position: relative;
+            overflow: hidden;
+            padding: 80px 0;
+        }
+        .testimony-section .overlay {
+            display: none; /* Hide old overlay */
+        }
+        .testimony-section .heading-section h2 {
+            color: var(--dark) !important;
+        }
+        .testimony-section .heading-section .subheading {
+            color: var(--primary) !important;
+        }
+        .testimony-section .heading-section p {
+            color: #6c757d !important;
+        }
+
+        /* Modern Testimonial Cards */
+        .testimonial-card-modern {
+            background: #fff;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: all 0.4s ease;
+            overflow: hidden;
+            margin: 15px 5px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            border: 1px solid rgba(0,0,0,0.03);
+        }
+        .testimonial-card-modern:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+        }
+        .testimonial-card-modern .card-header-custom {
+            background: linear-gradient(120deg, var(--primary), var(--primary-dark));
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .testimonial-card-modern .testimonial-badge {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            font-size: 0.75rem;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        .testimonial-card-modern .quote-icon {
+            color: rgba(255,255,255,0.8);
+            font-size: 1.2rem;
+        }
+        .testimonial-card-modern .media-content {
+            padding: 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .testimonial-card-modern .testimonial-text {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 1.5rem;
+        }
+        .testimonial-card-modern .testimonial-author {
+            margin-top: auto;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+        
+        /* Custom Navigation */
+        .testimonial-carousel-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .testimonial-nav-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: white;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .testimonial-nav-btn:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* WILD UI MOTION: Floats, Rotates, and Scales */
+        @keyframes ui-wild {
+            0% { transform: translate(0, 0) rotate(0deg) scale(1); }
+            33% { transform: translate(5px, -20px) rotate(3deg) scale(1.05); box-shadow: 0 15px 30px rgba(0,0,0,0.2); }
+            66% { transform: translate(-5px, -10px) rotate(-3deg) scale(1.05); box-shadow: 0 10px 20px rgba(0,0,0,0.15); }
+            100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+        }
+
+        /* HERO BG MOTION: Continuous Zoom and Pan */
+        @keyframes bg-wild {
+            0% { transform: scale(1.1) translate(0, 0); }
+            50% { transform: scale(1.25) translate(-20px, -15px); }
+            100% { transform: scale(1.1) translate(0, 0); }
+        }
+
+        .wild-motion {
+            animation: ui-wild 5s ease-in-out infinite;
+            display: inline-block; /* Ensures rotation works nicely */
+        }
+
+        .hero-motion {
+            animation: bg-wild 15s ease-in-out infinite alternate;
+        }
+        
+        /* HEAVENLY FLOAT: Gentle rising and falling */
+        @keyframes heavenly-float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Staggered Delays for 'Chaos' effect */
+        .delay-1 { animation-delay: 1s; }
+        .delay-2 { animation-delay: 2s; }
+    </style>
+</head>
+<body class="preloader-active" data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    <!-- Preloader Overlay -->
+    <div id="preloader">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div class="logo-assemble-wrapper">
+                <div class="logo-part left"></div>
+                <div class="logo-part right"></div>
+            </div>
+            <div class="preloader-subtitle" style="margin-top: 2.2rem; color: #17690d; font-family: 'Lora', serif; font-size: 1.1rem; font-weight: 700; letter-spacing: 1.5px; text-align: center; text-shadow: 0 2px 8px #e0e0e0;">
+                LEADING PEOPLE TO CHRIST<br>RESTORING LIVES AND DESTINY
+            </div>
+        </div>
+    </div>
+
+    <!-- NEW MODERN HEADER with ROUND LOGO -->
+    <header class="modern-header">
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo-circle heavenly-float">
+                    <img src="images/logo.png" alt="Solutions Faith Ministry International Logo" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'logo-circle-placeholder\'><i class=\'fas fa-cross\' style=\'font-size: 28px; color: #17690d;\'></i></div>'">
+                </div>
+                <div class="brand-text">
+                    <div class="brand-name">Solutions Faith Ministry International</div>
+                </div>
+            </div>
+            
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav class="modern-nav" id="modernNav">
+                <ul class="modern-nav-links">
+                    <li><a href="#home-section" class="nav-link-custom">Home</a></li>
+                    <li><a href="#services-section" class="nav-link-custom">Doctrine</a></li>
+                    <li><a href="#sermons-section" class="nav-link-custom">Sermons</a></li>
+                    <li><a href="#events-section" class="nav-link-custom">Events</a></li>
+                    <li><a href="#testimony-section" class="nav-link-custom">Testimonies</a></li>
+                    <li><a href="#pastor-section" class="nav-link-custom">Pastors</a></li>
+                    <li><a href="#contact-section" class="nav-link-custom">Contact</a></li>
+                    <li><a href="#photo-section" class="nav-link-custom">Photos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / Welcome Section -->
+    <section id="home-section" class="ftco-section ftco-no-pt ftco-no-pb ftco-about-section" style="padding-top: 100px;">
+        <div class="container-fluid px-0">
+            <div class="row d-md-flex text-wrapper">
+                <div class="one-half img" style="min-height: 500px; background-color: #f8f9fa; position: relative; overflow: hidden;"><img id="hero-img" class="hero-motion" src="images/bg_3.jpg" alt="Welcome Image for Solutions Faith Ministry" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;"></div>
+                <div class="one-half half-text d-flex justify-content-end align-items-center">
+                    <div class="text-inner pl-md-5 pr-md-4">
+                        <h3 class="heading" id="hero-title" style="color: var(--dark);">Welcome to <span style="color: var(--primary);">Solutions Faith</span> Ministry International</h3>
+                        <div class="vision-box wild-motion delay-1">
+                            <p><strong>Our vision is simple:</strong></p>
+                            <p class="font-italic" id="hero-vision">"To use the electronic media to make Jesus Christ more known and exercise the power in His name to restore destinies in every nook and cranny of the globe that this platform can reach."</p>
+                        </div>
+                        <p id="hero-desc">We are a vibrant community of believers committed to prayer, the unadulterated Word, and prophetic ministry. Join us as we journey in faith and experience God's transformative power.</p>
+                        <div class="mt-4">
+                            <a href="#about-section" class="btn btn-primary py-2 px-4">Learn More</a>
+                            <a href="#contact-section" class="btn btn-outline-primary py-2 px-4 ml-2">Get in Touch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Doctrine Section -->
+    <section class="ftco-section ftco-services-2" id="services-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <span class="subheading">Our Core Doctrine</span>
+                    <h2 class="mb-4">Our Services & Ministries</h2>
+                    <p>We are anchored on the foundational truths of Scripture, ministering life, hope, and deliverance.</p>
+                </div>
+            </div>
+            <div class="row" id="services-container">
+                <!-- Services will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sermons Section -->
+    <section class="ftco-section bg-light" id="sermons-section">
+        <div class="container">
+            <div class="row d-flex align-items-center mt-5">
+                <div class="col-md-6 pr-md-5 ftco-animate">
+                    <div class="heading-section text-md-left">
+                        <span class="subheading">Latest Message</span>
+                        <h2 class="mb-4" id="sermon-title">Empowering You Through The Word</h2>
+                        <p class="mb-4" id="sermon-desc">Catch up on the most recent teaching from Solutions Faith Ministry International. Each message is designed to help you take your next step in faith and live with purpose through the truth of Scripture.</p>
+                        <p>
+                            <a href="https://www.youtube.com/embed/adPzVKOMouU" target="_blank" class="btn btn-primary py-3 px-4 mr-2">Watch Live</a>
+                            <a href="#sermons-section" class="btn btn-outline-primary py-3 px-4">More Messages <span class="ion-ios-arrow-round-forward"></span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 ftco-animate" id="latest-message-container">
+                    <!-- Video will be loaded here by JavaScript -->
+                    <div class="d-flex justify-content-center align-items-center bg-light shadow-lg" style="border-radius: 8px; min-height: 300px;">
+                        <div class="spinner-border text-success" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Events Section -->
+    <section class="ftco-section mt-5 pt-5 bg-light ftco-event" id="events-section" style="margin-top: 300px !important; clear: both;">
+        <div class="container ftco-to-top">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8 col-lg-7 heading-section text-center ftco-animate mx-auto">
+                    <span class="subheading" style="color: var(--primary);">Join Us</span>
+                    <h2 class="mb-5" style="color: black;">Upcoming Events</h2>
+                    <p>Experience life-changing worship, prophetic ministry, and fellowship.</p>
+                </div>
+            </div>
+            <div id="events-container">
+                <!-- Events content will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonies Section -->
+    <section class="ftco-section testimony-section" id="testimony-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section ftco-animate text-center">
+                    <span class="subheading">Testimonies</span>
+                    <h2 class="mb-4">What People Say</h2>
+                    <p>Hear from those who have been touched by the ministry.</p>
+                </div>
+            </div>
+            <div class="row" id="testimonies-container">
+                <!-- Testimonies will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Pastors Section -->
+    <section class="ftco-section ftco-no-pb" id="pastor-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8 heading-section text-center ftco-animate">
+                    <span class="subheading">Our Spiritual Leaders</span>
+                    <h2 class="mb-4">Meet Our Pastors</h2>
+                    <p>God-called servants passionate about souls, restoration, and equipping the saints.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center" id="pastors-container">
+                <!-- Pastors content will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <span class="subheading">Get In Touch</span>
+                    <h2 class="mb-4">Contact Us</h2>
+                    <p>We'd love to hear from you. Reach out for prayer, inquiries, or partnership.</p>
+                </div>
+            </div>
+            <div class="bg-white p-4 border rounded">
+                <div class="row no-gutters bg-light shadow-sm">
+                    <div class="col-lg-6">
+                        <iframe width="100%" height="450" id="gmap_canvas" loading="lazy" style="border:0; min-height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4721.122489178474!2d-0.29860959640342105!3d5.716742799190678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9f5c7b836fb9%3A0xc58e279bd056a557!2sSolutions%20Faith%20Ministry%20International!5e0!3m2!1sen!2sgh!4v1771348765910!5m2!1sen!2sgh" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-4 p-md-5 h-100">
+                            <h3 class="mb-4 h4">Request Prayer or Consultation</h3>
+                            <form id="consultationForm" class="contact-form" onsubmit="submitPrayerRequest(event)">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label for="name">Your Name *</label>
+                                            <input class="form-control" id="name" type="text" name="name" placeholder="Your name here" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="email">Your Email *</label>
+                                            <input class="form-control" id="email" type="email" name="email" placeholder="Your email here" required>
+                                        </div>
+                                        <div class="col-md-6 mt-3">
+                                            <label for="subject">Subject</label>
+                                            <input class="form-control" id="subject" type="text" name="subject" placeholder="Prayer request / Question">
+                                        </div>
+                                        <div class="col-md-6 mt-3">
+                                            <label for="phone">Contact Number</label>
+                                            <input class="form-control" id="phone" type="text" name="phone" placeholder="Your phone here">
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <label for="message">Message *</label>
+                                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Share your prayer request or message"></textarea>
+                                        </div>
+                                        <div class="col-md-12 mt-4">
+                                            <button class="btn btn-primary py-2 px-5" type="submit">Send Message <span class="icon-send ml-1"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="form-status" class="mt-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="photo-section" class="ftco-gallery ftco-section ftco-no-pb mb-4">
+        <div class="container-fluid px-4">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section ftco-animate text-center">
+                    <span class="subheading">Moments of Grace</span>
+                    <h2 class="mb-1">Solutions Media Gallery</h2>
+                    <p>Glimpses of worship, outreaches, and fellowship</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row" id="gallery-container">
+                        <!-- Gallery items will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="ftco-footer ftco-bg-dark py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2 logo">Solutions Faith Ministry International</h2>
+                        <p>To use the electronic media to make Jesus Christ more known and exercise the power in His name to restore destinies in every nook and cranny of the globe that this platform can reach.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Service Hours</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="text">Family & Friends Service<br>Sunday: 8:00am - 11:00am</span></li>
+                                <li><span class="text">Time With The Lord<br>Wednesday: 6:00pm - 8:00pm</span></li>
+                                <li><span class="text">Prophetic, Healing & Deliverance<br>Friday: 6:00pm - 8:30pm</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Contact Info</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon icon-map-marker"></span><span class="text">Solutions Faith Ministry International, Amasaman, Accra - Ghana</span></li>
+                                <li><a href="tel:+233244456789"><span class="icon icon-phone"></span><span class="text">+233 24 468 4269</span></a></li>
+                                <li><a href="mailto:info@solutionsfaithministryinternational.org"><span class="icon icon-envelope"></span><span class="text" style="word-break: break-all;">info@solutionsfaithministryinternational.org</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Follow Us</h2>
+                        <ul class="list-unstyled mt-3">
+                            <li class="mb-2"><a href="https://www.facebook.com/solutionsfaithtv/about/?_rdr" class="d-flex align-items-center" style="color: rgba(255,255,255,0.8);"><span class="icon-facebook mr-3" style="font-size: 30px;"></span> Facebook</a></li>
+                            <li class="mb-2"><a href="https://www.tiktok.com/@solutionsfmi?is_from_webapp=1&sender_device=pc" class="d-flex align-items-center" style="color: rgba(255,255,255,0.8);"><span class="fab fa-tiktok mr-3" style="font-size: 30px;"></span> TikTok</a></li>
+                            <li class="mb-2"><a href="https://www.youtube.com/@solutionsfaithtv8914" class="d-flex align-items-center" style="color: rgba(255,255,255,0.8);"><span class="icon-youtube mr-3" style="font-size: 30px;"></span> YouTube</a></li>
+                            <li class="mb-2"><a href="https://whatsapp.com/channel/0029Vb095kXJENy1Mvpfkm0r" class="d-flex align-items-center" style="color: rgba(255,255,255,0.8);"><span class="fab fa-whatsapp mr-3" style="font-size: 30px;"></span> WhatsApp</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Solutions Faith Ministry International. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+
+        // Load content when page loads with Preloader Handling
+        document.addEventListener('DOMContentLoaded', () => {
+            // Start loading data from the API (but don't wait for it)
+            loadContent();
+            // Remove preloader after 1 second, even if content is not loaded
+            setTimeout(() => {
+                const preloader = document.getElementById('preloader');
+                if (preloader) {
+                    preloader.style.opacity = '0';
+                    preloader.style.visibility = 'hidden';
+                    document.body.classList.remove('preloader-active');
+                }
+            }, 1000);
+        });
+
+        // Animate sections as they enter viewport
+        function wildSectionObserver() {
+            const sections = document.querySelectorAll('section');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+            sections.forEach(section => {
+                section.classList.add('wild-section-animate');
+                observer.observe(section);
+            });
+        }
+        window.addEventListener('DOMContentLoaded', wildSectionObserver);
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const modernNav = document.getElementById('modernNav');
+        
+        if (mobileToggle && modernNav) {
+            mobileToggle.addEventListener('click', function() {
+                modernNav.classList.toggle('open');
+            });
+            
+            // Close menu when clicking a link
+            document.querySelectorAll('.modern-nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    modernNav.classList.remove('open');
+                });
+            });
+        }
+        
+        // Smooth scrolling and active link highlighting
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.modern-nav-links a');
+        
+        function updateActiveLink() {
+            let current = '';
+            const scrollPos = window.scrollY + 150;
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                const href = link.getAttribute('href').substring(1);
+                if (href === current) {
+                    link.classList.add('active');
+                }
+            });
+        }
+        
+        window.addEventListener('scroll', updateActiveLink);
+        window.addEventListener('load', updateActiveLink);
+        
+        // Smooth scroll
+        document.querySelectorAll('.modern-nav-links a, .btn-primary, .btn-outline-primary').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href && href.startsWith('#')) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }
+            });
+        });
+        
+        async function submitPrayerRequest(event) {
+            event.preventDefault();
+            const form = event.target;
+            const statusDiv = document.getElementById('form-status');
+            const button = form.querySelector('button[type="submit"]');
+            const originalButtonText = button.innerHTML;
+
+            const formData = {
+                name: form.name.value,
+                email: form.email.value,
+                subject: form.subject.value,
+                phone: form.phone.value,
+                message: form.message.value
+            };
+
+            button.disabled = true;
+            button.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...';
+
+            try {
+                const response = await fetch('/api/prayer-request', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                if (response.ok) {
+                    statusDiv.innerHTML = '<div class="alert alert-success">Your request has been sent successfully. We will be in touch.</div>';
+                    form.reset();
+                } else {
+                    throw new Error('Server responded with an error.');
+                }
+            } catch (error) {
+                console.error('Form submission error:', error);
+                statusDiv.innerHTML = '<div class="alert alert-danger">Sorry, there was an error sending your request. Please try again later.</div>';
+            } finally {
+                button.disabled = false;
+                button.innerHTML = originalButtonText;
+                setTimeout(() => { statusDiv.innerHTML = ''; }, 5000);
+            }
+        }
+
+        // Fetch and Render Data
+        async function loadContent() {
+            try {
+                // Load content directly from the local JSON file
+                const res = await fetch('data.json');
+                const data = await res.json();
+
+                // 1. Update Hero Section
+                if (data.hero) {
+                    if (data.hero.title) document.getElementById('hero-title').innerText = data.hero.title;
+                    if (data.hero.vision) document.getElementById('hero-vision').innerText = `"${data.hero.vision}"`;
+                    if (data.hero.description) document.getElementById('hero-desc').innerText = data.hero.description;
+                    const heroImgSrc = data.hero.image || data.hero.backgroundImage;
+                    const heroImgEl = document.getElementById('hero-img');
+                    if (heroImgSrc && heroImgEl) {
+                        heroImgEl.src = heroImgSrc;
+                    }
+                }
+
+                // 2. Update Latest Message
+                if (data.sermon && data.sermon.videoUrl && data.sermon.videoUrl.trim() !== "") {
+                    const videoUrl = data.sermon.videoUrl;
+                    const container = document.getElementById('latest-message-container');
+                    const watchLiveBtn = document.querySelector('#sermons-section .btn-primary');
+                    
+                    let embedHtml = '';
+                    let isTikTok = false;
+                    
+                    // Check Platform
+                    const ytMatch = videoUrl.match(/(?:https?:\/\/)?(?:www\.|m\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})(?:.+)?/);
+                    
+                    if (ytMatch && ytMatch[1]) {
+                        // YouTube
+                        embedHtml = `<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/${ytMatch[1]}" title="Latest Sermon" allowfullscreen></iframe>`;
+                    } else if (videoUrl.includes('facebook.com') || videoUrl.includes('fb.watch')) {
+                        // Facebook
+                        const fbSrc = `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(videoUrl)}&show_text=false&t=0`;
+                        embedHtml = `<iframe class="embed-responsive-item" src="${fbSrc}" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>`;
+                    } else if (videoUrl.includes('instagram.com')) {
+                        // Instagram
+                        const cleanUrl = videoUrl.split('?')[0].replace(/\/$/, "");
+                        embedHtml = `<iframe class="embed-responsive-item" src="${cleanUrl}/embed" frameborder="0" scrolling="no" allowtransparency="true"></iframe>`;
+                    } else if (videoUrl.includes('tiktok.com')) {
+                        // TikTok
+                        const tiktokMatch = videoUrl.match(/video\/(\d+)/);
+                        if (tiktokMatch && tiktokMatch[1]) {
+                            isTikTok = true;
+                            embedHtml = `<iframe src="https://www.tiktok.com/embed/v2/${tiktokMatch[1]}" frameborder="0" allowfullscreen style="width: 100%; height: 100%;"></iframe>`;
+                        } else {
+                            // Fallback for tiktok if ID extraction fails
+                            embedHtml = `<div class="d-flex align-items-center justify-content-center h-100 bg-dark text-white p-4 text-center">
+                                            <div><p>Watch this video on TikTok</p><a href="${videoUrl}" target="_blank" class="btn btn-primary">Open TikTok</a></div>
+                                         </div>`;
+                        }
+                    } else {
+                        // Generic Link Fallback
+                        embedHtml = `<div class="d-flex align-items-center justify-content-center h-100 bg-light p-4 text-center">
+                                        <div><p>Watch the latest sermon</p><a href="${videoUrl}" target="_blank" class="btn btn-primary">Watch Video</a></div>
+                                     </div>`;
+                    }
+                    
+                    if (container) {
+                        if (isTikTok) {
+                            container.innerHTML = `
+                                <div class="shadow-lg" style="border-radius: 8px; background: #000; height: 600px; max-height: 80vh; overflow: hidden;">
+                                    ${embedHtml}
+                                </div>
+                            `;
+                        } else {
+                            container.innerHTML = `
+                                <div class="embed-responsive embed-responsive-16by9 shadow-lg" style="border-radius: 8px; background: #000;">
+                                    ${embedHtml}
+                                </div>
+                            `;
+                        }
+                    }
+                    if (watchLiveBtn) {
+                        watchLiveBtn.href = videoUrl;
+                    }
+                    
+                    if(data.sermon.title) document.getElementById('sermon-title').innerText = data.sermon.title;
+                    if(data.sermon.description) document.getElementById('sermon-desc').innerText = data.sermon.description;
+                } else if (data.sermon) {
+                    const container = document.getElementById('latest-message-container');
+                    if (container) {
+                        container.innerHTML = '<div class="alert alert-info">No video has been set for the latest sermon.</div>';
+                    }
+                }
+
+                // 3. Update Services
+                const servicesContainer = document.getElementById('services-container');
+                if (servicesContainer && data.services && data.services.length > 0) {
+                    // Deduplicate services by title
+                    const uniqueServices = Array.from(new Set(data.services.map(s => s.title)))
+                        .map(title => data.services.find(s => s.title === title));
+                    servicesContainer.innerHTML = uniqueServices.map((s, index) => `
+                        <div class="col-md d-flex align-self-stretch ftco-animate fadeIn ftco-animated">
+                            <div class="media block-6 services text-center d-block service-card">
+                                <div class="icon wild-motion delay-${index % 3}"><span class="${s.icon || 'flaticon-church'}"></span></div>
+                                <div class="media-body">
+                                    <h3 class="heading mb-3">${s.title}</h3>
+                                    <p>${s.description}</p>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('');
+                } else if (servicesContainer) {
+                     // Fallback default if DB is empty
+                     servicesContainer.innerHTML = `
+                        <div class="col-md-12 text-center">
+                            <p>No services loaded. Please check admin panel.</p>
+                        </div>
+                     `;
+                }
+
+                // 4. Update Gallery
+                const galleryContainer = document.getElementById('gallery-container');
+                if (galleryContainer && data.gallery && data.gallery.length > 0) {
+                    let galleryItems = [...data.gallery];
+                    let currentIndex = 0;
+                    const itemsPerBatch = 3;
+
+                    const renderGallery = () => {
+                        // Select 3 items based on current index
+                        let itemsToShow = [];
+                        if (galleryItems.length <= itemsPerBatch) {
+                            itemsToShow = galleryItems;
+                        } else {
+                            for (let i = 0; i < itemsPerBatch; i++) {
+                                itemsToShow.push(galleryItems[(currentIndex + i) % galleryItems.length]);
+                            }
+                        }
+
+                        galleryContainer.innerHTML = itemsToShow.map(item => {
+                            if (!item) return ''; // Skip null or undefined items to prevent crash
+                            
+                            // Fix: Parse item if it is a stringified JSON object (causes %7B errors)
+                            let finalItem = item;
+                            if (typeof item === 'string' && item.trim().startsWith('{')) {
+                                try { finalItem = JSON.parse(item); } catch(e) {}
+                            }
+
+                            const src = (typeof finalItem === 'object' && finalItem) ? finalItem.image : finalItem;
+                            const title = (typeof finalItem === 'object' && finalItem && finalItem.title) ? finalItem.title : '';
+                            
+                            if (!src || typeof src !== 'string') return ''; // Don't display empty or invalid blocks
+
+                            return `
+                            <div class="col-md-4 col-sm-6 mb-4">
+                                <img src="${src}" class="img-fluid rounded shadow-sm" style="width:100%; height:300px; object-fit:contain; background-color: #f0f0f0;">
+                                ${title ? `<div class="mt-2 text-center font-weight-bold text-dark">${title}</div>` : ''}
+                            </div>
+                        `}).join('');
+                    };
+
+                    // Initial Render
+                    renderGallery();
+
+                    // Cycle every 30 seconds if we have more items than batch size
+                    if (galleryItems.length > itemsPerBatch) {
+                        setInterval(() => {
+                            currentIndex = (currentIndex + itemsPerBatch) % galleryItems.length;
+                            
+                            $(galleryContainer).fadeOut(500, function() {
+                                renderGallery();
+                                $(this).fadeIn(500);
+                            });
+                        }, 30000);
+                    }
+                }
+
+                // 5. Update Pastors
+                const pastorsContainer = document.getElementById('pastors-container');
+                if (pastorsContainer && data.pastors && data.pastors.length > 0) {
+                    // Deduplicate pastors by name
+                    const uniquePastors = Array.from(new Set(data.pastors.map(p => p.name)))
+                        .map(name => data.pastors.find(p => p.name === name));
+                    pastorsContainer.innerHTML = uniquePastors.map((p, index) => `
+                        <div class="col-md-4 mb-4">
+                            <div class="card heavenly-float delay-${index % 3}">
+                                <img src="${p.image}" class="card-img-top" style="height:350px; object-fit:cover; object-position: top;" alt="${p.name}">
+                                <div class="card-body">
+                                    <h5 class="card-title">${p.name}</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">${p.position}</h6>
+                                    <p class="card-text">${p.description}</p>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('');
+                }
+
+                // 6. Update Events
+                const eventsContainer = document.getElementById('events-container');
+                if (eventsContainer && data.events && data.events.length > 0) {
+                    // Deduplicate events by title
+                    const uniqueEvents = Array.from(new Set(data.events.map(e => e.title)))
+                        .map(title => data.events.find(e => e.title === title));
+                    // Set container to row for grid layout
+                    eventsContainer.className = 'row justify-content-center';
+                    eventsContainer.innerHTML = uniqueEvents.map((e, index) => `
+                        <div class="col-md-6 col-lg-4 mb-4 d-flex align-items-stretch">
+                            <div class="event-card w-100 shadow-sm rounded overflow-hidden d-flex flex-column heavenly-float delay-${index % 3}">
+                                <div class="event-img-wrap" style="height: 240px;">
+                                    <div class="event-date-badge"><i class="far fa-calendar-alt"></i> Upcoming</div>
+                                    <div style="background-image: url('${e.image || ''}'); height: 100%; width: 100%; background-size: cover; background-position: center;"></div>
+                                </div>
+                                <div class="p-4 d-flex flex-column flex-grow-1">
+                                    <h3 class="h5 mb-3 font-weight-bold text-dark" style="font-family: 'Times New Roman', serif; font-size: 1.4rem;">${e.title}</h3>
+                                    
+                                    <div class="mb-2 text-muted d-flex align-items-start"><span class="event-details-icon"><i class="far fa-clock"></i></span> <span>${e.time}</span></div>
+                                    <div class="mb-2 text-muted d-flex align-items-start"><span class="event-details-icon"><i class="fas fa-map-marker-alt"></i></span> <span>${e.location}</span></div>
+                                    <div class="mb-4 text-muted d-flex align-items-start"><span class="event-details-icon"><i class="fas fa-user-tie"></i></span> <span class="font-italic">${e.host}</span></div>
+                                    
+                                    <div class="mt-auto pt-3 border-top">
+                                        <a href="#contact-section" class="btn btn-primary btn-block rounded shadow-sm text-uppercase font-weight-bold" style="letter-spacing: 1px; font-size: 0.9rem;">${e.btnText || 'Join Us'}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('');
+                }
+
+                // 7. Update Testimonies
+                const testimoniesContainer = document.getElementById('testimonies-container');
+                if (testimoniesContainer) {
+                    if (data.testimonies && data.testimonies.length > 0) {
+                        testimoniesContainer.innerHTML = `
+                        <div class="col-md-12">
+                            <div class="carousel-testimony owl-carousel owl-theme">
+                                ${data.testimonies.map((t, index) => {
+                                    let mediaContent = '';
+                                    let badgeText = 'TESTIMONY';
+                                    
+                                    if (t.type === 'video') {
+                                        badgeText = 'VIDEO';
+                                        // Check if it's a data URL (uploaded file) or a link
+                                        const isLocalFile = t.content && (
+                                            t.content.trim().startsWith('data:') || 
+                                            t.content.endsWith('.mp4') || 
+                                            t.content.endsWith('.webm') ||
+                                            t.content.endsWith('.mov')
+                                        );
+
+                                        if (isLocalFile) {
+                                            mediaContent = `
+                                                <div class="mb-3 video-wrapper" style="width:100%;">
+                                                    <video controls style="width:100%; border-radius: 12px; max-height: 250px; background: #000;">
+                                                        <source src="${t.content}">
+                                                        Your browser does not support the video tag.
+                                                    </video>
+                                                </div>
+                                            `;
+                                        } else {
+                                            let embedUrl = t.content;
+                                            // Google Drive preview support
+                                            const gdriveMatch = t.content.match(/https?:\/\/drive\.google\.com\/file\/d\/([\w-]+)\/view/);
+                                            if (gdriveMatch && gdriveMatch[1]) {
+                                                embedUrl = `https://drive.google.com/file/d/${gdriveMatch[1]}/preview`;
+                                                mediaContent = `<div class="embed-responsive embed-responsive-16by9 mb-3" style="border-radius: 12px; overflow: hidden;"><iframe class="embed-responsive-item" src="${embedUrl}" allowfullscreen></iframe></div>`;
+                                            } else {
+                                                const ytMatch = t.content.match(/(?:https?:\/\/)?(?:www\.|m\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})(?:.+)?/);
+                                                if (ytMatch && ytMatch[1]) embedUrl = `https://www.youtube.com/embed/${ytMatch[1]}`;
+                                                mediaContent = `<div class="embed-responsive embed-responsive-16by9 mb-3" style="border-radius: 12px; overflow: hidden;"><iframe class="embed-responsive-item" src="${embedUrl}" allowfullscreen></iframe></div>`;
+                                            }
+                                        }
+                                    } else if (t.type === 'audio') {
+                                        badgeText = 'AUDIO';
+                                        mediaContent = `<div class="mb-3 p-3 bg-light rounded"><audio controls style="width:100%" src="${t.content}">Your browser does not support the audio element.</audio></div>`;
+                                    } else {
+                                        badgeText = 'STORY';
+                                        mediaContent = `<div class="testimonial-text">"${t.content}"</div>`;
+                                    }
+
+                                    return `
+                                        <div class="item">
+                                            <div class="testimonial-card-modern heavenly-float delay-${index % 3}">
+                                                <div class="card-header-custom">
+                                                    <span class="testimonial-badge">${badgeText}</span>
+                                                    <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                                                </div>
+                                                <div class="media-content">
+                                                    ${mediaContent}
+                                                    
+                                                    <div class="testimonial-author">
+                                                        <div>
+                                                            <h5 class="mb-0 font-weight-bold" style="font-size: 1.1rem; color: #333;">${t.name}</h5>
+                                                            <small class="text-primary font-weight-bold" style="text-transform: uppercase; font-size: 0.75rem;">${t.type === 'text' ? 'Member' : 'Witness'}</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    `;
+                                }).join('')}
+                            </div>
+                        </div>
+                    `;
+                        
+                        // Re-initialize Owl Carousel for this section specifically after content load
+                        setTimeout(() => {
+                            const testimonyCount = data.testimonies.length;
+                            $('.carousel-testimony').owlCarousel({ 
+                                center: false, 
+                                loop: testimonyCount > 3, 
+                                items: 1, 
+                                margin: 25, 
+                                stagePadding: 0, 
+                                nav: false, 
+                                dots: true,
+                                autoplay: testimonyCount > 1,
+                                autoplayTimeout: 6000,
+                                autoplayHoverPause: true,
+                                responsive: { 
+                                    0: { items: 1, loop: testimonyCount > 1 }, 
+                                    600: { 
+                                        items: Math.min(testimonyCount, 2), 
+                                        loop: testimonyCount > 2 
+                                    }, 
+                                    1000: { 
+                                        items: Math.min(testimonyCount, 3), 
+                                        loop: testimonyCount > 3 
+                                    } 
+                                } 
+                            });
+                            
+                            // Enable custom navigation buttons
+                            const navControls = document.getElementById('testimonial-nav-controls');
+                            if (navControls && data.testimonies.length > 1) {
+                                navControls.classList.remove('d-none');
+                                $('#testimonial-prev').click(function() {
+                                    $('.carousel-testimony').trigger('prev.owl.carousel');
+                                });
+                                $('#testimonial-next').click(function() {
+                                    $('.carousel-testimony').trigger('next.owl.carousel');
+                                });
+                            }
+                        }, 100);
+                    } else {
+                        testimoniesContainer.innerHTML = `
+                            <div class="col-md-12 text-center"><p class="text-muted">Testimonies will be updated soon.</p></div>
+                        `;
+                    }
+                }
+
+            } catch (error) {
+                console.error("Failed to load content:", error);
+            }
+        }
+    </script>
+</body>
+</html>

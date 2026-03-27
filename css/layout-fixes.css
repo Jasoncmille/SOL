@@ -1,0 +1,11 @@
+/* Shift the Events section down to avoid overlap with video content */
+.ftco-section:has(h2) {
+    margin-top: 100px; /* Adjust this value as needed */
+    clear: both;
+}
+
+@media (max-width: 768px) {
+    .ftco-section:has(h2) {
+        margin-top: 60px; /* Smaller shift for mobile devices */
+    }
+}
