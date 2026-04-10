@@ -37,20 +37,12 @@
   ],
   "events": [
     {
-      "title": "CULTURE SUNDAY",
-      "time": "SUNDAY 29TH MARCH 2026",
-      "host": "Prophet Emmanuel Okyere Ampomah ,Pastor Mariam Ampomah & Pastor Paul Adjin-Tettey",
-      "location": "Solutions Faith Ministry International Auditorium, Amasaman",
-      "btnText": "Join Us",
-      "image": "images/cultureday.jpg"
-    },
-    {
-      "title": "EASTER CONVENTION",
-      "time": "1ST APRIL - 3RD APRIL -5TH APRIL",
+      "title": "3 DAYS PROGRAM",
+      "time": "29TH APRIL -1ST MAY",
       "host": "Prophet Emmanuel Okyere Ampomah",
       "location": "Solutions Faith Ministry International Auditorium, Amasaman",
       "btnText": "Join Us",
-      "image": "images/easter.jpg"
+      "image": "images/3days.jpg"
     },
     {
       "title": "Family & Friends Service",
